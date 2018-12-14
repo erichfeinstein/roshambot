@@ -1,8 +1,11 @@
 {
-  "name": "greeter-bot",
+  "name": "roshambotbot",
   "version": "1.0.0",
-  "description": "Remember to drink enough water!",
+  "description": "Play Rock, Paper, Scissors on Discord",
   "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
   "author": "Eric Feinstein",
   "dependencies": {
     "discord.io": "github:woor/discord.io#gateway_v6",
